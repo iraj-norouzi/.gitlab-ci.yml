@@ -29,5 +29,7 @@ deploy1:
     - master
   script:
     - echo "Do your deploy here" >/tmp/deploy.txt
+#  dependencies:
+#    - test
   tags:
       - deploy
